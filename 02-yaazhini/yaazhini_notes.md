@@ -1,22 +1,25 @@
 ﻿# Notes d'analyse Yaazhini
 
 ## Rapport
-- Rapport à copier dans 02-yaazhini/ après exécution de Yaazhini.
+- Le rapport Yaazhini a ete consulte pendant le lab.
+- Les preuves visuelles sont conservees dans `screens/Capture d'écran 2026-06-01 095324.png` et `screens/Capture d'écran 2026-06-01 095334.png`.
 
 ## Ce qui est certain
-- À compléter après analyse.
-
-## Ce qui est hypothèse
-- À compléter après analyse.
+- L'APK `UnCrackable-Level1.apk` a ete analysee avec Yaazhini.
+- Le tableau de resultats et la synthese de risque ont ete observes.
+- Les resultats sont utilises pour alimenter le triage statique.
 
 ## Manifest Android
-- À compléter.
+- Le manifest est considere comme un point de verification principal pour les permissions, les composants et les options de configuration Android.
 
-## Réseau
-- À compléter.
+## Reseau
+- Aucun flux reseau sensible n'est confirme dans les preuves conservees.
+- Les elements reseau restent classes RAS dans le triage.
 
 ## Stockage et secrets
-- À compléter.
+- Aucun secret exploitable n'est confirme dans les preuves conservees.
+- La verification du stockage reste rattachee a MASVS-STORAGE dans le mapping OWASP.
 
-## Code et résilience
-- À compléter.
+## Code et resilience
+- L'application etant un crackme pedagogique OWASP, les controles de resilience et de reverse engineering sont consideres comme une zone importante de lecture.
+- Les observations de resilience sont rattachees a MASVS-RESILIENCE dans le mapping OWASP.

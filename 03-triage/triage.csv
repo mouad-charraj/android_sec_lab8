@@ -1,11 +1,11 @@
-﻿ID,Source,Élément,Preuve,Confiance,Sévérité,Impact,Recommandation,Référence OWASP,Statut
-FIND-001,À compléter,À compléter,À compléter,À compléter,À compléter,À compléter,À compléter,À compléter,À confirmer
-FIND-002,À compléter,À compléter,À compléter,À compléter,À compléter,À compléter,À compléter,À compléter,À confirmer
-FIND-003,À compléter,À compléter,À compléter,À compléter,À compléter,À compléter,À compléter,À compléter,À confirmer
-FIND-004,À compléter,À compléter,À compléter,À compléter,À compléter,À compléter,À compléter,À compléter,À confirmer
-FIND-005,À compléter,À compléter,À compléter,À compléter,À compléter,À compléter,À compléter,À compléter,À confirmer
-FIND-006,RAS,À compléter après analyse,Notes BeVigil/Yaazhini,Faible,Info,Aucun impact confirmé,Conserver la preuve de vérification,À compléter,RAS
-FIND-007,RAS,À compléter après analyse,Notes BeVigil/Yaazhini,Faible,Info,Aucun impact confirmé,Conserver la preuve de vérification,À compléter,RAS
-FIND-008,RAS,À compléter après analyse,Notes BeVigil/Yaazhini,Faible,Info,Aucun impact confirmé,Conserver la preuve de vérification,À compléter,RAS
-FIND-009,RAS,À compléter après analyse,Notes BeVigil/Yaazhini,Faible,Info,Aucun impact confirmé,Conserver la preuve de vérification,À compléter,RAS
-FIND-010,RAS,À compléter après analyse,Notes BeVigil/Yaazhini,Faible,Info,Aucun impact confirmé,Conserver la preuve de vérification,À compléter,RAS
+﻿ID,Source,Element,Preuve,Confiance,Severite,Impact,Recommandation,Reference OWASP,Statut
+FIND-001,Scope,Perimetre autorise documente,00-scope/scope.md,Forte,Info,Analyse limitee au cadre du lab,Conserver le scope dans le rendu,MASVS-GENERAL,Valide
+FIND-002,Traceabilite,Hash SHA-256 documente,analyse_info.txt,Forte,Info,Artefact identifiable et reproductible,Conserver le hash avec le rapport,MASVS-GENERAL,Valide
+FIND-003,BeVigil,Scan externe consulte,screens/Capture d'écran 2026-06-01 095300.png,Forte,Info,Premiere vue des signaux externes,Utiliser le resultat comme base de triage,MASVS-CODE,Valide
+FIND-004,Yaazhini,Rapport statique consulte,screens/Capture d'écran 2026-06-01 095324.png,Forte,Info,Vue interne de l'APK pour le triage,Verifier les categories avant conclusion,MASVS-CODE,Valide
+FIND-005,Yaazhini,Synthese de risque conservee,screens/Capture d'écran 2026-06-01 095334.png,Forte,Info,Priorisation des points de controle,Conserver la synthese dans les preuves,MASVS-CODE,Valide
+FIND-006,Statique,Manifest Android retenu comme zone de controle,02-yaazhini/yaazhini_notes.md,Moyenne,Info,Permissions et composants a verifier,Relire le manifest lors du triage,MASVS-PLATFORM,Valide
+FIND-007,Statique,Aucun endpoint sensible confirme,01-bevigil/bevigil_notes.md,Moyenne,Info,Aucun impact reseau confirme,Maintenir le statut RAS sans preuve contraire,MASVS-NETWORK,RAS
+FIND-008,Statique,Aucun secret exploitable confirme,02-yaazhini/yaazhini_notes.md,Moyenne,Info,Aucun impact stockage confirme,Maintenir le statut RAS sans preuve contraire,MASVS-STORAGE,RAS
+FIND-009,Statique,Aucun email sensible confirme,01-bevigil/bevigil_notes.md,Moyenne,Info,Aucune exposition d'identite confirmee,Maintenir le statut RAS sans preuve contraire,MASVS-PRIVACY,RAS
+FIND-010,Statique,Resilience identifiee comme axe de lecture,02-yaazhini/yaazhini_notes.md,Moyenne,Low,Application pedagogique orientee reverse engineering,Documenter les controles sans exploitation,MASVS-RESILIENCE,Valide
