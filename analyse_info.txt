@@ -1,0 +1,10 @@
+﻿Date: 2026-06-01
+Analyste: Mouad
+Cible: OWASP MSTG UnCrackable Level 1
+Artefact: UnCrackable-Level1.apk
+Provenance: Enseignant / Projet de cours / OWASP MSTG
+Hash SHA-256: 1DA8BF57D266109F9A07C01BF7111A1975CE01F190B9D914BCD3AE3DBEF96F21
+Versions outils:
+  - BeVigil: [à compléter ]
+  - Yaazhini: [à compléter ]
+Environnement: Windows Windows 11 Pro

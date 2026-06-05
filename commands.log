@@ -1,0 +1,5 @@
+﻿# Log des commandes exécutées - 2026-06-01 09:32:00
+mkdir 00-scope, 01-bevigil, 02-yaazhini, 03-triage, 04-report
+Copy-Item -Path 'D:\tps\mobile\labsec8\UnCrackable-Level1.apk' -Destination 'D:\tps\mobile\labsec8\00-scope\UnCrackable-Level1.apk'
+Get-FileHash -Path '00-scope\UnCrackable-Level1.apk' -Algorithm SHA256
+Created scope.md, analyse_info.txt, bevigil_notes.md, yaazhini_notes.md, triage.csv, owasp_mapping.md, rapport_final.md, checklist_fin.md
