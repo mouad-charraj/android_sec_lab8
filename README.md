@@ -1,5 +1,9 @@
 ﻿# LabSec8 - Analyse statique Android
 
+## Auteur
+
+CHARRAJ Mouad
+
 ## Objectif
 
 Ce lab presente une analyse statique encadree de l'APK pedagogique OWASP MSTG UnCrackable Level 1. Le travail couvre le perimetre, la tracabilite, l'identification de l'artefact, l'analyse avec BeVigil et Yaazhini, puis le triage des constats.
@@ -24,6 +28,10 @@ BeVigil est utilise pour obtenir une premiere vue des informations exposees auto
 Yaazhini est utilise pour analyser le contenu de l'APK. Les resultats sont consultes pour relever les categories de risque et preparer le triage.
 
 Les constats sont consolides dans le triage afin d'eviter les doublons entre les outils. Les elements importants sont ensuite relies aux categories OWASP MASVS lorsque la correspondance est pertinente.
+
+## Auteur
+
+CHARRAJ Mouad
 
 ## Preuves
 
@@ -78,3 +86,7 @@ La synthese Yaazhini resume les categories detectees et sert de base au triage.
 ## Resultat
 
 Le lab produit un workspace structure, un artefact identifie par hash, des resultats BeVigil et Yaazhini, puis une base de triage exploitable pour relier les constats aux references OWASP.
+
+## Auteur
+
+CHARRAJ Mouad
